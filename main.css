@@ -370,7 +370,7 @@ input[type=button] {
 
 #causes .row6 {
   background-color: #f9f9f9;
-  margin-left: 400px;
+  margin-left: 380px;
 }
 
 #causes .row6 :after {
@@ -433,5 +433,201 @@ input[type=button] {
 
 .sub1 #m {
   margin-left: 500px;
+}
+
+/*video and imagetext section */
+#image .sub3 {
+  background-color: black;
+  color: #f9f9f9;
+  height: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 40px;
+}
+
+#image .sub3 img {
+  margin-left: -500px;
+  float: left;
+  width: 500px;
+  height: 259px;
+  margin-right: 25px;
+  padding-right: 20px;
+  margin-top: 30px;
+}
+
+#image .sub3 p, #image .sub3 h2 {
+  margin-left: 30%;
+  margin-right: 320px;
+  text-align: justify;
+}
+
+#image .sub3 h2 {
+  margin-top: -270px;
+  margin-left: 900px;
+}
+
+#image .sub3 p {
+  margin-left: 900px;
+}
+
+/*section for the gallery*/
+#gallery .row1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+#gallery .column1 {
+  -webkit-box-flex: 25%;
+      -ms-flex: 25%;
+          flex: 25%;
+  max-width: 25%;
+}
+
+#gallery .column1 img {
+  vertical-align: middle;
+  width: 100%;
+}
+
+.sub4 {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.sub4 p {
+  text-align: center;
+}
+
+.sub4 h2 {
+  margin-left: -200px;
+  text-align: center;
+  -webkit-text-decoration: underline red;
+          text-decoration: underline red;
+}
+
+/*volunteer section*/
+#volunteer .row {
+  margin-left: 280px;
+  justify-items: center;
+}
+
+#volunteer .column {
+  margin: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+  display: table;
+  float: left;
+}
+
+#volunteer h2 {
+  text-align: center;
+  -webkit-text-decoration: underline red;
+          text-decoration: underline red;
+  margin-left: 0;
+}
+
+#volunteer li {
+  list-style-type: none;
+  display: inline;
+  padding-right: 40px;
+  color: grey;
+}
+
+#volunteer .card {
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  font-family: arial;
+  max-width: 300px;
+  margin: 0 20px 20px 0;
+}
+
+#volunteer .card p {
+  margin-left: 100px;
+}
+
+#volunteer h5 {
+  margin-left: 100px;
+}
+
+#volunteer h2 {
+  margin-left: -200px;
+  text-align: center;
+  -webkit-text-decoration: underline red;
+          text-decoration: underline red;
+}
+
+.sub5 {
+  padding-top: 40px;
+}
+
+.sub5 h5, .sub5 p {
+  text-align: center;
+  margin-left: -30px;
+}
+
+/*last section above footer*/
+#last {
+  background-color: grey;
+  color: #f9f9f9;
+}
+
+#last .row4 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+#last .column4 li {
+  list-style-type: none;
+  -webkit-text-decoration: underline black;
+          text-decoration: underline black;
+}
+
+#last .column5 li {
+  list-style-type: none;
+  -webkit-text-decoration: underline black;
+          text-decoration: underline black;
+}
+
+#last .column5 li :hover {
+  color: red;
+}
+
+#last .column3 li {
+  margin: 20px;
+  list-style-type: none;
+}
+
+#last .column3 li span.a:hover {
+  background-color: orangered;
+}
+
+#last span.a {
+  width: 100%;
+  margin: 5px;
+  padding: 5px;
+  border: 1px solid #f9f9f9;
+}
+
+#last .column3 h4 {
+  -webkit-text-decoration: underline red;
+          text-decoration: underline red;
+}
+
+#last .column3 h5, #last .column4, #last .column5 {
+  -webkit-text-decoration: underline red;
+          text-decoration: underline red;
 }
 /*# sourceMappingURL=main.css.map */
