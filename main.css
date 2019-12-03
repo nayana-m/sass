@@ -359,4 +359,79 @@ input[type=button] {
   margin-left: -20px;
   text-align: justify;
 }
+
+/*causes section */
+#causes .column6 {
+  border: 0.2px solid lightgrey;
+  float: left;
+  margin: 10px;
+  width: 25%;
+}
+
+#causes .row6 {
+  background-color: #f9f9f9;
+  margin-left: 400px;
+}
+
+#causes .row6 :after {
+  clear: both;
+  display: table;
+}
+
+#causes span.e {
+  float: left;
+  margin-right: 100px;
+}
+
+#causes span.f {
+  float: right;
+}
+
+#causes span.g {
+  float: left;
+  color: red;
+  margin-right: 200px;
+}
+
+#causes span.h {
+  float: right;
+  color: red;
+}
+
+#causes .z {
+  text-align: center;
+}
+
+#causes h4 {
+  margin-left: 0;
+}
+
+#causes h2 {
+  margin-left: -200px;
+  text-align: center;
+  -webkit-text-decoration: underline red;
+          text-decoration: underline red;
+}
+
+#causes .flexcontainer1 {
+  margin-left: 150px;
+}
+
+.column6 p {
+  text-align: justify;
+}
+
+.sub1 {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.sub1 h4 span.decoration {
+  -webkit-text-decoration: underline red;
+          text-decoration: underline red;
+}
+
+.sub1 #m {
+  margin-left: 500px;
+}
 /*# sourceMappingURL=main.css.map */

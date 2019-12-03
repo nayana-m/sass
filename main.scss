@@ -315,3 +315,63 @@ input[type=button] {
     text-align:justify;
 }
 
+/*causes section */
+#causes{
+    .column6{
+        border:0.2px solid lightgrey;
+        float:left;
+        margin:10px;
+        width:25%;
+    }
+    .row6{
+        background-color:$mycolor;
+        margin-left:400px;
+        & :after{
+            clear:both;
+            display:table;
+        }
+    }
+    span.e{
+        float:left;
+        margin-right:100px;
+    }
+    span.f{
+        float:right;
+    }
+    span.g{
+        float:left;
+        color:$newcolor;
+        margin-right:200px;
+    }
+    span.h{
+        float:right;
+        color:$newcolor;
+    }
+    .z{
+        text-align:center;
+    }
+    h4{
+        margin-left:0;
+    }
+    h2{
+        margin-left:-200px;
+        text-align:center;
+        text-decoration:underline $newcolor;
+    }
+    .flexcontainer1{
+        margin-left:150px;
+    }
+}
+.column6 p{
+    text-align:justify;
+}
+.sub1{
+    padding-top:40px;
+    padding-bottom:40px;
+    h4 span.decoration{
+        text-decoration:underline $newcolor;
+    }
+    #m{
+        margin-left:500px;
+    }
+}
