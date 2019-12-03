@@ -630,4 +630,43 @@ input[type=button] {
   -webkit-text-decoration: underline red;
           text-decoration: underline red;
 }
+
+/*news letter section*/
+#news {
+  background-color: #f54121;
+  color: #f9f9f9;
+}
+
+#news h2 {
+  float: left;
+  text-align: center;
+  margin-left: 250px;
+  margin-top: 30px;
+}
+
+#news form {
+  float: right;
+  margin-top: 20px;
+  padding: 20px;
+  width: auto;
+}
+
+#news input[type="text"] {
+  margin-left: 100px;
+  padding: 10px 32px;
+  width: auto;
+}
+
+#news .button1 {
+  color: #f9f9f9;
+  background-color: #f54121;
+  margin-right: 200px;
+  height: 38px;
+}
+
+footer {
+  color: #f9f9f9;
+  text-align: center;
+  background-color: black;
+}
 /*# sourceMappingURL=main.css.map */

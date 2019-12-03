@@ -447,10 +447,8 @@ input[type=button] {
     }
     .column{
         margin:10px;
-        margin:{
-        right:10px;
-        left:10px;
-        }
+        margin-right:10px;
+        margin-left:10px;
         display:table;
         float:left;
     }
@@ -488,9 +486,6 @@ input[type=button] {
     h5,p{
         text-align:center;
         margin-left:-30px;
-    }
-    p{
-        
     }
 
 }
@@ -536,4 +531,38 @@ input[type=button] {
     .column3 h5, .column4, .column5{
         text-decoration:underline $newcolor;
     }
+}
+
+/*news letter section*/
+#news{
+    background-color:rgb(245,65,33);
+    color:$mycolor;
+    h2{
+        float:left;
+        text-align:center;
+        margin-left:250px;
+        margin-top:30px;
+    }
+    form{
+        float:right;
+        margin-top:20px;
+        padding:20px;
+        width:auto;
+    }
+    input[type="text"]{
+        margin-left:100px;
+        padding: 10px 32px;
+        width:auto;
+    }
+    .button1{
+        color:$mycolor;
+        background-color:rgb(245,65,33);
+        margin-right:200px;
+        height:38px;
+    }
+}
+footer{
+    color:$mycolor;
+    text-align:center;
+    background-color:black;
 }
