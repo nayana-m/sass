@@ -259,3 +259,59 @@ input[type=button] {
         text-decoration:underline $newcolor;
     }
 }
+
+.icon{
+    margin-left:300px;
+    border-top:1px solid $newcolor;
+    border-bottom:1px solid $newcolor;
+    margin-left:800px;
+}
+
+/*about us section*/
+#about{
+    .column{
+        float:left;
+        width:25%;
+    }
+    img{
+        padding-left:40px;
+        padding-right:40px;
+        padding-bottom:80px;
+
+    }
+    h4,h3{
+        text-decoration:underline $newcolor;
+    }
+}
+.sub{
+    background-color:#f1f1f1;
+    .row:after{
+        content:"";
+        display:table;
+        clear:both;
+        padding-left:200px;
+    }
+    h2{
+        margin-left:-200px;
+        padding-top:40px;
+        text-align:center;
+        text-decoration:underline $newcolor;
+    }
+    p{
+        text-align:justify;
+        text-align:center;
+    }
+}
+#col1{
+    padding-left:250px;
+}
+.sub #col1 p,h4{
+    margin-left:150px;
+    text-align:justify;
+}
+.sub #col2 p,h3{
+    margin-right:150px;
+    margin-left:-20px;
+    text-align:justify;
+}
+

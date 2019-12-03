@@ -296,4 +296,67 @@ input[type=button] {
   -webkit-text-decoration: underline red;
           text-decoration: underline red;
 }
+
+.icon {
+  margin-left: 300px;
+  border-top: 1px solid red;
+  border-bottom: 1px solid red;
+  margin-left: 800px;
+}
+
+/*about us section*/
+#about .column {
+  float: left;
+  width: 25%;
+}
+
+#about img {
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 80px;
+}
+
+#about h4, #about h3 {
+  -webkit-text-decoration: underline red;
+          text-decoration: underline red;
+}
+
+.sub {
+  background-color: #f1f1f1;
+}
+
+.sub .row:after {
+  content: "";
+  display: table;
+  clear: both;
+  padding-left: 200px;
+}
+
+.sub h2 {
+  margin-left: -200px;
+  padding-top: 40px;
+  text-align: center;
+  -webkit-text-decoration: underline red;
+          text-decoration: underline red;
+}
+
+.sub p {
+  text-align: justify;
+  text-align: center;
+}
+
+#col1 {
+  padding-left: 250px;
+}
+
+.sub #col1 p, h4 {
+  margin-left: 150px;
+  text-align: justify;
+}
+
+.sub #col2 p, h3 {
+  margin-right: 150px;
+  margin-left: -20px;
+  text-align: justify;
+}
 /*# sourceMappingURL=main.css.map */
