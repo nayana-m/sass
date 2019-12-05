@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>CSS Website Layout</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+<body>
+  <div class="navbar">  
+    <header>
+    <div class="container">
+       <li id="contact"><i class="fa fa-phone"></i>+123-456-789 <i class="fa fa-envelope-o"></i>info@gmail.com</li>
+       <nav>
+         <a><i class="fa fa-facebook-f"></i></a>
+         <a><i class="fa fa-twitter"></i></a>
+         <a><i class="fa fa-google-plus"></i></a>
+         <a><i class="fa fa-linkedin"></i></a>
+       </nav>
+    </div>
+    </header>
+  </div>
+  <!--navigation bar header-->
+  <div class="header1">
+    <div class="container">
+      <nav>
+      <ul>
+        <li><a class="highlight" href="#">COMPANY NAME</a></li>
+        <span class="hide">
+        <li><a href="#"><i class="fa fa-fw fa-home"></i><br>Home</a></li>
+        <li class="pages">
+        <a class="dropbtn"><i class="fa fa-fw fa-file-o"></i><br>pages</a>
+          <div class="pages-content">
+            <a href="#">about us</a>
+            <a href="#">voulenteer details</a>
+            <a href="#">gallery</a>
+            <a href="#">error</a>
+            <a href="#">coming soon</a>
+          </div>
+        <li><a href="#"><i class="fa fa-fw fa-calendar-o"></i><br>events</a></li>
+        <li><a href="#"><i class="fa fa-fw fa-gear"></i><br>services</a></li>
+        <li><a href="#"><i class="fa fa-fw fa-book"></i><br>blogs</a></li>
+        <li><a href="#"><i class="fa fa-fw fa-support"></i><br>FAQs</a></li>
+        <li><a href="#"><i class="fa fa-fw fa-phone"></i><br>contacts</a></li>
+        <li><input type="button" value="Donate Now"></li>
+      </ul>
+      </nav>
+    </div>
+  </div>
+  <!--backgroundimage showcase section-->
+  <section id="showcase">
+    <div class="container">
+      <div class="image-text">
+        <h1 style="font-size:40px"> Save The Life </h1>
+        <span class="hide"> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et doloremagna aliqua.</p>
+        <button class="readbutton">Read More</button></span>
+        <hr>
+      </div>
+    </div>
+  <!--section for form input-->
+  <section id="ftext">
+    <div class="container">
+      <form class="formcontainer">
+        <label for="Name"><b>Name</b></label>
+        <input type="text" placeholder="Full Name" name="name" required>
+        <label for="UsernameorEmail"><b>Username or Email</b></label>
+        <input type="text" placeholder="info@gmail.com" name="email" required>
+        <input type="checkbox" name="value1" value="Remember Me"> Remember Me<br>
+        <button type="submit" class="sbtn">Submit</button>
+      </form>
+    </div>
+  </section>
+  <!--to align the text next to form-->
+  <section id="rtext">
+    <div class="container">
+      <div class="message">
+        <h1><span class="decoration">LEAVE</span> US A MESSAGE</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet risus quis libero consequat
+        sollicitudin.Curabitur felis tellus, fringilla quis viverra nec, ornare vitae magna. Proin turpis ante, laoreet quis interdumsit amet</p>
+        <p>Read More>></p>
+      </div>
+    </div>
+  </section>
+  </section>
+  <!--section for boxes arrangement-->
+  <section id="boxes">
+    <div class="container">
+      <div class="row1">
+        <div class="column">
+          <a><i class="fa fa-wrench"></i></a>
+          <p><h4>Interactive elements</h4></p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet risus quis libero consequatsollicitudin. </p>
+        </div>
+        <div class="column">
+          <a><i class="fa fa-heartbeat"></i></a>
+          <p><h4>Donate</h4></p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet risus quis libero consequatsollicitudin. </p>
+        </div>
+        <div class="column">
+          <a><i class="fa fa-usd"></i></a>
+          <p><h4>Donate</h4></p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet risus quis libero consequatsollicitudin. </p>
+        </div>
+     </div>
+     <div class="row2">
+       <div class="column">
+         <a><i class="fa fa-calendar"></i></a>
+         <p><h4>Contribute</h4></p>
+         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet risus quis libero consequatsollicitudin. </p>
+       </div>
+       <div class="column">
+         <a><i class="fa fa-user-o"></i></a>
+         <p><h4>Participate</h4></p>
+         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet risus quis libero consequatsollicitudin. </p>
+       </div>
+       <div class="column">
+         <a><i class="fa fa-wrench"></i></a>
+         <p><h4>Interactive elements</h4></p>
+         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet risus quis libero consequatsollicitudin. </p>
+       </div>
+     </div>
+   </div>
+  </section>
+  
+  <!--section about us-->
+  <section id="about">
+    <div class="container">
+      <div class="sub">
+        <h2>About Us</h2>
+        <span class="icon"><i class="fa fa-tint" style="color:red"></i></span>
+        <p id="k">Charixy is a charity.non profit government organization, fundrizing.our activities get enterprenurs get the target</p>
+        <div class="row">
+          <div class="column" id="col1">
+            <h4>Donation</h4>
+            <p>Vision is our mission, restoring vision to the people in developing nations is our cause. we are nonprlocal physicians</p>
+            <p><h4>Fundrise</h4>
+            <p>Vision is our mission, restoring vision to the people in developing nations is our cause. we are nonprlocal physicians</p></p>
+         </div> 
+         <div class="column">
+           <img src="imagess/about.jpg" alt="Donation" width="70%">
+         </div>
+         <div class="column" id="col2">
+           <h3>Scholarship</h3>
+           <p>Vision is our mission, restoring vision to the people in developing nations is our cause. we are nonprlocal physicians</p>
+           <p><h3>Volunteer</h3>
+           <p>Vision is our mission, restoring vision to the people in developing nations is our cause. we are nonprlocal physicians</p></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--our causes-->
+  <section id="causes">
+    <div class="container">
+      <div class="sub1">
+        <h2>OUR CAUSES</h2>
+        <span class="icon"><i class="fa fa-tint" style="color:red"></i></span>
+        <p id="causes-main-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet risus quis libero consequatsollicitudin.</p>
+        <div class="flex-container1">
+          <div class="row6">
+            <div class="column6" >
+              <img src="imagess/causes-1.jpg" alt="snow" width="100%">
+              <h4><span class="decoration">Feed For</span> Hungry Child</h4>
+              <p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet risus quis libero</p>
+              <hr>
+              <p><div><span class="causes-left-align">donated</span><span class="causes-right-align">goal</span></div></p>
+              <p><div><span class="causes-left-align1">$1000</span><span class="causes-right-align1">$60000</span></div></p>
+            </div>
+            <div class="column6" >
+              <img src="imagess/causes-2.jpg" alt="snow" width="100%">
+              <h4><span class="decoration">Feed For</span> Hungry Child</h4>
+              <p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet risus quis libero</p>
+              <hr>
+              <p><div><span class="causes-left-align">donated</span><span class="causes-right-align">goal</span></div></p>
+              <p><div><span class="causes-left-align1">$1000</span><span class="causes-right-align1">$60000</span></div></p>  
+            </div>
+            <div class="column6" >
+              <img src="imagess/causes-3.jpg" alt="snow" width="100%">
+              <h4><span class="decoration">Feed For</span> Hungry Child</h4>
+              <p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet risus quis libero</p>
+              <hr>
+              <p><div><span class="causes-left-align">donated</span><span class="causes-right-align">goal</span></div></p>
+              <p><div><span class="causes-left-align1">$1000</span><span class="causes-right-align1">$60000</span></div></p> 
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--section video image text-->
+  <section id="image">
+    <div class="container">
+      <div class="sub3">
+       <div><img src="imagess/video-img.jpg" alt="heart breaking"/></div>
+        <div>
+          <p><h2><span class="decoration">Heart</span> Broken Story</h2></p>
+          <p>Even the all powerful pointing has no control about the blind texts it is an almost
+          unorthographic. Life one day however a small line of blind text by the lorem ipsum
+          adipiscing elit.Cras sit amet risus quis libero consequat sollicitudin.Curabitur felis tellus,
+          fringilla quis viverra nec, ornare vitae magna. Proin turpis ante, laoreet quis interdum
+          sit amet, gravida et ligula. Quisque at commodo nibh. Donec erat lacus, malesuada vitae </p>
+          <p>Read More>></p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- section gallery-->
+  <section id="gallery">
+    <div class="container">
+      <div class="sub4">
+        <h2>OUR GALLERY</h2>
+        <span class="icon"><i class="fa fa-tint" style="color:red"></i></span>
+        <p>Charixy is a charity.non profit government organization, fundrizing.our activities get enterprenurs tothe target</p>
+       <div class="row1" > 
+          <div class="column1">
+            <img src="imagess/gallery-1.jpg" width="100%" height="100%" >
+          </div>
+          <div class="column1">
+            <img src="imagess/gallery-2.jpg" width="100%" height="50%">
+            <img src="imagess/gallery-3.jpg" width="100%" height="50%">
+          </div>  
+          <div class="column1">
+            <img src="imagess/gallery-4.jpg" width="100%" height="100%">
+          </div>
+          <div class="column1">
+             <img src="imagess/gallery-5.jpg" width="100%" height="50%">
+             <img src="imagess/gallery-6.jpg" width="100%" height="50%">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--volunteer section-->
+  <section id="volunteer">
+    <div class="container">
+      <div class="sub5">
+        <h2>OUR VOLUNTEER</h2>
+        <span class="icon"><i class="fa fa-tint" style="color:red"></i></span>
+        <p>Charixy is a charity.non profit government organization, fundrizing.our activities get enterprenurs tothe target</p>
+      </div>
+      <div class="row">
+        <div class="column">
+          <div class="card">
+            <img src="imagess/volunteer-1.jpg" alt="causes" width="100%">
+            <h5>Sara Lion </h5>
+            <p>volunteer</p>
+            <hr>
+            <ul>
+              <li><a><i class="fa fa-facebook-f"></i></a></li>
+              <li><a><i class="fa fa-twitter"></i></a></li>
+              <li><a><i class="fa fa-google-plus"></i></a></li>
+              <li><a><i class="fa fa-linkedin"></i></a></li>
+            </ul>
+          </div>
+        </div>
+        <span class="hide">
+        <div class="column">
+          <div class="card">
+            <img src="imagess/volunteer-2.jpg" alt="causes" width="100%">
+            <h5>jack doe</h5>
+            <p>volunteer</p>
+            <hr>
+            <ul>
+              <li><a><i class="fa fa-facebook-f"></i></a></li>
+              <li><a><i class="fa fa-twitter"></i></a></li>
+              <li><a><i class="fa fa-google-plus"></i></a></li>
+              <li><a><i class="fa fa-linkedin"></i></a></li>
+            </ul>
+          </div>
+        </div>
+        </span>
+        <span class="hide">
+        <div class="column">
+          <div class="card">
+            <img src="imagess/volunteer-3.jpg" alt="causes" width="100%">
+            <h5>Flora view</h5>
+            <p>volunteer</p>
+            <hr>
+            <ul>
+              <li><a><i class="fa fa-facebook-f"></i></a></li>
+              <li><a><i class="fa fa-twitter"></i></a></li>
+              <li><a><i class="fa fa-google-plus"></i></a></li>
+              <li><a><i class="fa fa-linkedin"></i></a></li>
+            </ul>
+          </div>
+        </div>
+        </span>
+        <span class="hide">
+          <div class="column">
+            <div class="card">
+              <img src="imagess/volunteer-4.jpg" alt="causes" width="100%">
+              <h5>johny newmen</h5>
+              <p>volunteer</p>
+              <hr>
+              <ul>
+                <li><a><i class="fa fa-facebook-f"></i></a></li>
+                <li><a><i class="fa fa-twitter"></i></a></li>
+                <li><a><i class="fa fa-google-plus"></i></a></li>
+                <li><a><i class="fa fa-linkedin"></i></a></li>
+              </ul>
+            </div>
+          </div>
+          </span>
+        </div>
+    </div>
+  </section>
+  <!--section above the footer-->
+  <section id="last">
+    <div class="container">
+      <div class="row4">
+        <div class="column4">
+          <ul>
+            <li><h5>ABOUT US</h5></li>
+            <li>About us</li>
+            <li>Our team
+            <li>Volunteer Engagement</li>
+            <li>Communication</li>
+            <li>Services</li>
+          </ul>
+        </div>
+        <div class="column5">
+          <ul>
+            <li><h5>DISCOVER</h5></li>
+            <li>Mission</li>
+            <li>Where we are headed</li>
+            <li>History</li>
+            <li>Board and staff</li>
+          </ul>
+        </div>
+        <div class="column4">
+            <ul>
+              <li><h5>QUICK LINKS</h5></li>
+              <li>Earth hour</li>
+              <li>Save water</li>
+              <li>Equality</li>
+              <li>Women</li>
+            </ul>
+        </div>
+        <div class="column3">
+            <ul>
+              <li><h5>TAGS</h5></li>
+              <li><div><span class="a">Faith</span><span class="a">Forgiveness</span></div></li>
+              <li><div><span class="a">Donation</span><span class="a"> Animals</span></div></li>
+              <li><div><span class="a">NAture</span><span class="a">Recycle</span></div></li>
+            </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--news letter section-->
+  <section id="news">
+    <div class="container">
+      <div class="signup">
+        <h2>Signup For Our Newsletter</h2>
+        <form>
+         <input type="text" text="email" placeholder="Enter Your Email" required>
+         <button type="submit" class="button1">SUBSCRIBE NOW</button>
+        </form>
+      </div>
+    </div>
+  </section>
+  <!--footer section-->
+  <footer>
+    <div class="container">
+      <p>Copy Right 2017 All Reserved</p>
+    </div>
+  </footer>
+</body>
+</html>
