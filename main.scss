@@ -583,11 +583,10 @@ input[type=button] {
         margin-left:10px;
         display:table;
         float:left;
-    }
-    h2{
-        text-align:center;
-        text-decoration:underline $newcolor;
-        margin-left:0;
+        @include for-phone-only{
+            width:100%;
+            display:block-inline;
+        }
     }
     li{
         list-style-type:none;
@@ -603,6 +602,9 @@ input[type=button] {
         p{
             margin-left:100px;
         }
+        @include for-phone-only{
+            margin-left:-200px;
+        }
     }
     h5{
         margin-left:100px;
@@ -611,6 +613,14 @@ input[type=button] {
         margin-left:-200px;
         text-align:center;
         text-decoration:underline $newcolor;
+        @include for-phone-only{
+            margin-left:0px;
+        }
+    }
+    span.hide{
+        @include for-phone-only{
+            display:none;
+        }
     }
 }
 .sub5{
@@ -618,6 +628,11 @@ input[type=button] {
     h5,p{
         text-align:center;
         margin-left:-30px;
+    }
+    p{
+        @include for-phone-only{
+            margin-left:0px;
+        }
     }
 
 }

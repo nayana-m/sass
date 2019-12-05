@@ -738,11 +738,11 @@ input[type=button] {
   float: left;
 }
 
-#volunteer h2 {
-  text-align: center;
-  -webkit-text-decoration: underline red;
-          text-decoration: underline red;
-  margin-left: 0;
+@media (max-width: 500px) {
+  #volunteer .column {
+    width: 100%;
+    display: block-inline;
+  }
 }
 
 #volunteer li {
@@ -764,6 +764,12 @@ input[type=button] {
   margin-left: 100px;
 }
 
+@media (max-width: 500px) {
+  #volunteer .card {
+    margin-left: -200px;
+  }
+}
+
 #volunteer h5 {
   margin-left: 100px;
 }
@@ -775,6 +781,18 @@ input[type=button] {
           text-decoration: underline red;
 }
 
+@media (max-width: 500px) {
+  #volunteer h2 {
+    margin-left: 0px;
+  }
+}
+
+@media (max-width: 500px) {
+  #volunteer span.hide {
+    display: none;
+  }
+}
+
 .sub5 {
   padding-top: 40px;
 }
@@ -782,6 +800,12 @@ input[type=button] {
 .sub5 h5, .sub5 p {
   text-align: center;
   margin-left: -30px;
+}
+
+@media (max-width: 500px) {
+  .sub5 p {
+    margin-left: 0px;
+  }
 }
 
 /*last section above footer*/
