@@ -489,6 +489,13 @@ input[type=button] {
   width: 25%;
 }
 
+@media (max-width: 500px) {
+  #causes .column6 {
+    margin-left: -330px;
+    width: 380px;
+  }
+}
+
 #causes .row6 {
   background-color: #f9f9f9;
   margin-left: 380px;
@@ -499,32 +506,38 @@ input[type=button] {
   display: table;
 }
 
-#causes span.e {
+#causes span.causes-left-align {
   float: left;
   margin-right: 100px;
 }
 
-#causes span.f {
+#causes span.causes-right-align {
   float: right;
 }
 
-#causes span.g {
+#causes span.causes-left-align1 {
   float: left;
   color: red;
   margin-right: 200px;
 }
 
-#causes span.h {
+#causes span.causes-right-align1 {
   float: right;
   color: red;
 }
 
-#causes .z {
+#causes .paragraph {
   text-align: center;
 }
 
 #causes h4 {
-  margin-left: 0;
+  margin-left: 10px;
+}
+
+@media (max-width: 500px) {
+  #causes h4 {
+    margin-right: auto;
+  }
 }
 
 #causes h2 {
@@ -532,6 +545,12 @@ input[type=button] {
   text-align: center;
   -webkit-text-decoration: underline red;
           text-decoration: underline red;
+}
+
+@media (max-width: 500px) {
+  #causes h2 {
+    margin-left: 10px;
+  }
 }
 
 #causes .flexcontainer1 {
@@ -552,8 +571,15 @@ input[type=button] {
           text-decoration: underline red;
 }
 
-.sub1 #m {
+.sub1 #causes-main-paragraph {
   margin-left: 500px;
+}
+
+@media (max-width: 500px) {
+  .sub1 #causes-main-paragraph {
+    margin-left: 60px;
+    width: 400px;
+  }
 }
 
 /*video and imagetext section */

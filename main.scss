@@ -405,6 +405,10 @@ input[type=button] {
         float:left;
         margin:10px;
         width:25%;
+        @include for-phone-only{
+            margin-left:-330px;
+            width:380px;
+        }
     }
     .row6{
         background-color:$mycolor;
@@ -414,32 +418,38 @@ input[type=button] {
             display:table;
         }
     }
-    span.e{
+    span.causes-left-align{
         float:left;
         margin-right:100px;
     }
-    span.f{
+    span.causes-right-align{
         float:right;
     }
-    span.g{
+    span.causes-left-align1{
         float:left;
         color:$newcolor;
         margin-right:200px;
     }
-    span.h{
+    span.causes-right-align1{
         float:right;
         color:$newcolor;
     }
-    .z{
+    .paragraph{
         text-align:center;
     }
     h4{
-        margin-left:0;
+        margin-left:10px;
+        @include for-phone-only{
+            margin-right:auto;
+        }
     }
     h2{
         margin-left:-200px;
         text-align:center;
         text-decoration:underline $newcolor;
+        @include for-phone-only{
+            margin-left:10px;
+        }
     }
     .flexcontainer1{
         margin-left:150px;
@@ -454,8 +464,12 @@ input[type=button] {
     h4 span.decoration{
         text-decoration:underline $newcolor;
     }
-    #m{
+    #causes-main-paragraph{
         margin-left:500px;
+        @include for-phone-only{
+            margin-left:60px;
+            width:400px;
+        }
     }
 }
 
