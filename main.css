@@ -53,6 +53,12 @@ header #contact {
   padding-left: 280px;
 }
 
+@media (max-width: 500px) {
+  header #contact {
+    padding-left: 110px;
+  }
+}
+
 /*navigation bar header*/
 .header1 nav {
   background-color: #f9f9f9;
@@ -83,6 +89,18 @@ header #contact {
   margin-top: 20px;
   padding-bottom: 10px;
   padding-right: 0;
+}
+
+@media (max-width: 500px) {
+  .header1 .highlight {
+    margin-left: -70px;
+  }
+}
+
+@media (max-width: 500px) {
+  .header1 span.hide {
+    display: none;
+  }
 }
 
 .pages-content {
@@ -149,6 +167,16 @@ input[type=button] {
   padding: 10px 32px;
 }
 
+@media (max-width: 500px) {
+  #showcase {
+    width: 500px;
+    height: 300px;
+  }
+  #showcase span.hide {
+    display: none;
+  }
+}
+
 .image-text {
   color: #f9f9f9;
   border-left: 1px solid #f9f9f9;
@@ -163,6 +191,12 @@ input[type=button] {
   text-align: center;
 }
 
+@media (max-width: 500px) {
+  .image-text {
+    outline-style: none;
+  }
+}
+
 .image-text h1 {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -174,6 +208,20 @@ input[type=button] {
   -webkit-text-decoration: underline red;
           text-decoration: underline red;
   margin-top: -30px;
+}
+
+@media (max-width: 500px) {
+  .image-text h1 {
+    font-size: 30px;
+    width: 500px;
+    height: 20px;
+    margin-top: -280px;
+    margin-left: -250px;
+    -webkit-box-flex: 0;
+        -ms-flex: none;
+            flex: none;
+    display: block;
+  }
 }
 
 .image-text h1 :before, .image-text h1 :after {
@@ -199,6 +247,17 @@ input[type=button] {
   top: 650px;
   max-width: 350px;
   padding: 18px;
+}
+
+@media (max-width: 500px) {
+  .formcontainer {
+    left: 180px;
+    margin-left: -120px;
+    width: 500px;
+    top: 350px;
+    height: 314px;
+    padding: 0 20px 20px 0;
+  }
 }
 
 .formcontainer input[type=text] {
@@ -233,6 +292,13 @@ input[type=button] {
 .message p {
   text-align: justify;
   margin-right: 285px;
+}
+
+@media (max-width: 500px) {
+  .message p {
+    width: 400px;
+    margin-left: 650px;
+  }
 }
 
 .message h1 span.decoration {
@@ -274,6 +340,19 @@ input[type=button] {
   vertical-align: middle;
 }
 
+@media (max-width: 500px) {
+  #boxes .column {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    display: block;
+    margin: 10px,0;
+    margin-left: 0;
+    padding-right: 20px;
+    padding-left: 20px;
+    width: 100%;
+  }
+}
+
 #boxes .column :hover {
   border-color: red;
 }
@@ -295,6 +374,14 @@ input[type=button] {
   padding-top: 0px;
   -webkit-text-decoration: underline red;
           text-decoration: underline red;
+}
+
+@media (max-width: 500px) {
+  #boxes {
+    margin: 0;
+    padding: 1px;
+    width: 100%;
+  }
 }
 
 .icon {
@@ -321,6 +408,13 @@ input[type=button] {
           text-decoration: underline red;
 }
 
+@media (max-width: 500px) {
+  #about {
+    float: none;
+    width: 100%;
+  }
+}
+
 .sub {
   background-color: #f1f1f1;
 }
@@ -338,6 +432,12 @@ input[type=button] {
   text-align: center;
   -webkit-text-decoration: underline red;
           text-decoration: underline red;
+}
+
+@media (max-width: 500px) {
+  .sub h2 {
+    margin-left: 0px;
+  }
 }
 
 .sub p {
@@ -668,5 +768,38 @@ footer {
   color: #f9f9f9;
   text-align: center;
   background-color: black;
+}
+
+@media (max-width: 500px) {
+  .navbar a {
+    float: left;
+    display: block;
+    margin-left: 50px;
+    padding: 20px 1px 5px 0;
+    overflow: auto;
+  }
+}
+
+@media (max-width: 500px) {
+  .navbar nav {
+    width: 410px;
+    padding-right: 0px;
+  }
+}
+
+@media (max-width: 500px) {
+  .message h1 {
+    margin-top: 0px;
+    margin-left: 650px;
+    width: 400px;
+    top: 10px;
+  }
+}
+
+@media (max-width: 500px) {
+  #boxes .row1 {
+    margin: 0px;
+    margin-top: 700px;
+  }
 }
 /*# sourceMappingURL=main.css.map */

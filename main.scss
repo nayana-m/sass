@@ -1,6 +1,12 @@
 $mycolor:#f9f9f9;
 $newcolor:red;
 
+@mixin for-phone-only{
+    @media(max-width:500px){
+        @content;
+    }
+}  
+
 body{
     margin:0;
     padding:0;
@@ -49,7 +55,10 @@ header{
     #contact{
         float:left;
         list-style-type:none;
-        padding-left:280px;    
+        padding-left:280px; 
+       @include for-phone-only{
+           padding-left:110px;
+       }
     }
 }
 
@@ -81,6 +90,14 @@ header{
         margin-top:20px;
         padding-bottom:10px;
         padding-right:0;
+        @include for-phone-only{
+            margin-left:-70px;
+        }
+    }
+    @include for-phone-only{
+        span.hide{
+        display:none;
+        }
     }
 }
 
@@ -139,6 +156,14 @@ input[type=button] {
         color:$mycolor;
         padding:10px 32px;
     }
+    @include for-phone-only{
+        width:500px;
+        height:300px;
+        span.hide{
+            display:none;
+        }
+
+    }
 }
 .image-text{
     color:$mycolor;
@@ -151,11 +176,23 @@ input[type=button] {
     top:400px;
     transform:translate(-50%, -50%);
     text-align:center;
+    @include for-phone-only{
+        outline-style:none;
+    }
     h1{
         display:flex;
         flex-direction:row;
         text-decoration:underline $newcolor;
         margin-top:-30px;
+        @include for-phone-only{
+            font-size:30px;
+            width:500px;
+            height:20px;
+            margin-top:-280px;
+            margin-left:-250px;
+            flex:none;
+            display:block;
+        }
         & :before, & :after{
             content: " ";
             flex:1 1;
@@ -177,6 +214,14 @@ input[type=button] {
     top:650px;
     max-width:350px;
     padding:18px;
+    @include for-phone-only{
+        left:180px;
+        margin-left:-120px;
+        width:500px;
+        top:350px;
+        height:314px;
+        padding:0 20px 20px 0;
+    }
     input[type=text]{
         background:#f1f1f1;
         border:none;
@@ -208,6 +253,10 @@ input[type=button] {
     p{
         text-align:justify;
         margin-right:285px;
+        @include for-phone-only{
+            width:400px;
+            margin-left:650px;
+        }
     }
     & h1 span.decoration{
         text-decoration:underline $newcolor;
@@ -239,6 +288,15 @@ input[type=button] {
         padding-left:10px;
         width:30%;
         vertical-align:middle;
+        @include for-phone-only{
+            box-sizing:border-box;
+            display:block;
+            margin:10px,0;
+            margin-left:0;
+            padding-right:20px;
+            padding-left:20px;
+            width:100%;
+        }
         & :hover{
             border-color:$newcolor;
         }
@@ -257,6 +315,11 @@ input[type=button] {
         margin:30px;
         padding-top:0px;
         text-decoration:underline $newcolor;
+    }
+    @include for-phone-only{
+        margin:0;
+        padding:1px;
+        width:100%;
     }
 }
 
@@ -282,6 +345,10 @@ input[type=button] {
     h4,h3{
         text-decoration:underline $newcolor;
     }
+    @include for-phone-only{
+        float:none;
+        width:100%;
+    }
 }
 .sub{
     background-color:#f1f1f1;
@@ -296,6 +363,10 @@ input[type=button] {
         padding-top:40px;
         text-align:center;
         text-decoration:underline $newcolor;
+        @include for-phone-only{
+            margin-left:0px;
+            
+        }
     }
     p{
         text-align:justify;
@@ -565,4 +636,35 @@ footer{
     color:$mycolor;
     text-align:center;
     background-color:black;
+}
+  
+
+.navbar a{
+        @include for-phone-only {
+      float:left;
+      display:block;
+      margin-left:50px;
+      padding:20px 1px 5px 0;
+      overflow:auto;
+        }
+    }
+.navbar nav{
+        @include for-phone-only{
+        width:410px;
+        padding-right:0px;
+        }
+    }
+.message h1{
+    @include for-phone-only{
+        margin-top:0px;
+        margin-left:650px;
+        width:400px;
+        top:10px;
+    }
+}
+#boxes .row1{
+    @include for-phone-only{
+        margin:0px;
+        margin-top:700px;
+    }
 }
