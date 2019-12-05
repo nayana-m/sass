@@ -536,10 +536,20 @@ input[type=button] {
     .column1{
         flex:25%;
         max-width:25%;
+        @include for-phone-only{
+            flex:100%;
+            max-width:100%;
+        }
         img{
             vertical-align:middle;
             width:100%;
         }
+    }
+    @include for-phone-only{
+        width:100%;
+        margin:0;
+        padding:0;
+        flex-wrap:wrap;
     }
 }
 .sub4{
@@ -547,11 +557,17 @@ input[type=button] {
     padding-bottom:40px;
     p{
         text-align:center;
+        @include for-phone-only{
+            margin-left:15px;
+        }
     }
     h2{
         margin-left:-200px;
         text-align:center;
         text-decoration:underline $newcolor;
+        @include for-phone-only{
+            margin-left:0px;
+        }
     }
 }
 

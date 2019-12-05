@@ -672,9 +672,28 @@ input[type=button] {
   max-width: 25%;
 }
 
+@media (max-width: 500px) {
+  #gallery .column1 {
+    -webkit-box-flex: 100%;
+        -ms-flex: 100%;
+            flex: 100%;
+    max-width: 100%;
+  }
+}
+
 #gallery .column1 img {
   vertical-align: middle;
   width: 100%;
+}
+
+@media (max-width: 500px) {
+  #gallery {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
 }
 
 .sub4 {
@@ -686,11 +705,23 @@ input[type=button] {
   text-align: center;
 }
 
+@media (max-width: 500px) {
+  .sub4 p {
+    margin-left: 15px;
+  }
+}
+
 .sub4 h2 {
   margin-left: -200px;
   text-align: center;
   -webkit-text-decoration: underline red;
           text-decoration: underline red;
+}
+
+@media (max-width: 500px) {
+  .sub4 h2 {
+    margin-left: 0px;
+  }
 }
 
 /*volunteer section*/
