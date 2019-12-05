@@ -661,6 +661,9 @@ input[type=button] {
     .column3 li{
         margin:20px;
         list-style-type:none;
+        @include for-phone-only{
+            margin-left:0px;
+        }
         & span.a:hover{
             background-color:orangered;
 
@@ -677,6 +680,12 @@ input[type=button] {
     }
     .column3 h5, .column4, .column5{
         text-decoration:underline $newcolor;
+    }
+    .column3, .column4, .column5{
+        @include for-phone-only{
+            flex:100%;
+            max-width:100%;
+        }
     }
 }
 

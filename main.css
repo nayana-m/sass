@@ -846,6 +846,12 @@ input[type=button] {
   list-style-type: none;
 }
 
+@media (max-width: 500px) {
+  #last .column3 li {
+    margin-left: 0px;
+  }
+}
+
 #last .column3 li span.a:hover {
   background-color: orangered;
 }
@@ -865,6 +871,15 @@ input[type=button] {
 #last .column3 h5, #last .column4, #last .column5 {
   -webkit-text-decoration: underline red;
           text-decoration: underline red;
+}
+
+@media (max-width: 500px) {
+  #last .column3, #last .column4, #last .column5 {
+    -webkit-box-flex: 100%;
+        -ms-flex: 100%;
+            flex: 100%;
+    max-width: 100%;
+  }
 }
 
 /*news letter section*/
