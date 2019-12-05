@@ -476,6 +476,12 @@ input[type=button] {
 
 /*video and imagetext section */
 #image{
+    @include for-phone-only{
+        flex:100%;
+        flex-wrap:wrap;
+        float:none;
+        max-width:100%;
+    }
     .sub3{
         img{
            margin-left:-500px;
@@ -485,6 +491,10 @@ input[type=button] {
            margin-right:25px;
            padding-right:20px;
            margin-top:30px;
+           @include for-phone-only{
+               width:380px;
+               margin-left:50px;
+           }
         }
         background-color:black;
         color:$mycolor;
@@ -493,6 +503,9 @@ input[type=button] {
         flex-wrap:wrap;
         justify-content:space-around;
         padding:40px;
+        @include for-phone-only{
+            height:700px;
+        }
         p,h2{
             margin-left:30%;
             margin-right:320px;
@@ -504,6 +517,12 @@ input[type=button] {
         }
         p{
             margin-left:900px;
+            @include for-phone-only{
+                margin-top:50px;
+                margin-left:465px;
+                width:356px;
+                text-align:justify-content;
+            }
         }
     }
 }

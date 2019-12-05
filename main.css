@@ -583,6 +583,18 @@ input[type=button] {
 }
 
 /*video and imagetext section */
+@media (max-width: 500px) {
+  #image {
+    -webkit-box-flex: 100%;
+        -ms-flex: 100%;
+            flex: 100%;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    float: none;
+    max-width: 100%;
+  }
+}
+
 #image .sub3 {
   background-color: black;
   color: #f9f9f9;
@@ -607,6 +619,19 @@ input[type=button] {
   margin-top: 30px;
 }
 
+@media (max-width: 500px) {
+  #image .sub3 img {
+    width: 380px;
+    margin-left: 50px;
+  }
+}
+
+@media (max-width: 500px) {
+  #image .sub3 {
+    height: 700px;
+  }
+}
+
 #image .sub3 p, #image .sub3 h2 {
   margin-left: 30%;
   margin-right: 320px;
@@ -620,6 +645,15 @@ input[type=button] {
 
 #image .sub3 p {
   margin-left: 900px;
+}
+
+@media (max-width: 500px) {
+  #image .sub3 p {
+    margin-top: 50px;
+    margin-left: 465px;
+    width: 356px;
+    text-align: justify-content;
+  }
 }
 
 /*section for the gallery*/
